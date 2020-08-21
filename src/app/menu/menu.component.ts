@@ -36,9 +36,9 @@ export class MenuComponent implements OnInit {
   constructor(private service: DataService) {}
 
   ngOnInit(): void {
-    this.service.getItems().subscribe((e) => {
-      console.log(e);
-    });
+    // this.service.getItems().subscribe((e) => {
+    //   console.log(e);
+    // });
   }
 
   ngAlert(e): void{
