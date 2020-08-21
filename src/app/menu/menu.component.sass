@@ -1,0 +1,43 @@
+@import '../../sass/_colors.sass'
+
+.menu
+  background: $color-gray
+  .content
+    max-width: 1090px
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    margin: 0 auto
+    padding: 20px
+    .mat-card
+      width: 198px
+      max-width: 198px
+      min-width: 198px
+      height: 196px
+      display: flex
+      justify-content: space-around
+      align-items: center
+      flex-direction: column
+      flex-wrap: wrap
+      margin: 20px
+      border-radius: 12px
+      background: $color-white
+      cursor: pointer
+      &:hover
+        box-shadow: 0px 0px 8px $color-shadow-hover
+      p
+        width: 100%
+        text-align: left
+        font-family: "Montserrat"
+        font-weight: bold
+        font-style: normal
+        font-weight: bold
+        font-size: 16px
+        line-height: 21px
+        letter-spacing: 0.194286px
+
+@media (min-width: 0) and (max-width: 1000px)
+  .menu
+    .content
+      justify-content: center
+

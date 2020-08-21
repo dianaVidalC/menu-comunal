@@ -1,0 +1,11 @@
+<section class="menu">
+    <div class="content">
+        <ng-template ngFor let-item [ngForOf]="items" let-i="index">
+            <mat-card *ngIf="item.status == 'visible'" (click)="ngAlert(item.title)">
+                <img src="{{item.icon}}" alt="icon">
+                <p>{{item.title}}</p>
+            </mat-card>
+        </ng-template>
+    </div>
+
+</section>

@@ -1,0 +1,28 @@
+{
+    "items": [{
+            "title": "Reserva de sala",
+            "icon": "assets/images/salas.svg",
+            "status": "visible"
+        },
+        {
+            "title": "Reporte de problemas ",
+            "icon": "assets/images/problemas.svg",
+            "status": "visible"
+        },
+        {
+            "title": "Mi equipo",
+            "icon": "assets/images/equipo.svg",
+            "status": "visible"
+        },
+        {
+            "title": "Comunicados",
+            "icon": "assets/images/comunicados.svg",
+            "status": "visible"
+        },
+        {
+            "title": "Ficha de sintomatología ",
+            "icon": "assets/images/ficha.svg",
+            "status": "visible"
+        }
+    ]
+}
